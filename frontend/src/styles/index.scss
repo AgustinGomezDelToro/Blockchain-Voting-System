@@ -4,7 +4,7 @@
 
 $theme-gray: #f6f6f6;
 $theme-black: #333333;
-$theme-primary: #4daaa7;
+$theme-primary: rgb(88, 173, 159);
 $theme-secondary: #3f8f8b;
 
 @mixin box-shadow {
@@ -43,7 +43,7 @@ button {
   color: white;
 }
 .button-primary {
-  background-color: $theme-primary;
+  background-color: #53c0bc;
   color: white;
 }
 
@@ -87,7 +87,7 @@ button,
 }
 
 .success-message {
-  background-color: $theme-primary;
+  background-color: #53c0bc;
 }
 
 .error-message {
