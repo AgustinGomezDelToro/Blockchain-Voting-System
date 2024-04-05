@@ -61,6 +61,9 @@ export default async (req: Request, res: Response) => {
     email: user.email,
     admin: user.admin,
   };
+
+
+
   const accessToken = jwt.sign(plainUserObject, accessTokenSecret, {
     expiresIn: 60,
   });
